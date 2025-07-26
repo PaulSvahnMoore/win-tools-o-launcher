@@ -4,7 +4,7 @@ import sys
 from launcher_window import LauncherWindow  # Import the main window
 
 def main():
-    app = QApplication(sys.argv)  # Create the application
+    app = QApplication(sys.argv)   # Create the application
     window = LauncherWindow()      # Create the launcher window
     window.show()                  # Show the window
     sys.exit(app.exec())           # Run the event loop
